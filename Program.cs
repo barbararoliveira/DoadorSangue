@@ -20,9 +20,9 @@ namespace DoadorSangue
 
              else
                 Console.WriteLine("Você não pode ser doador de sangue.");
-
-            Console.ReadKey();
-
+            
+            Console.WriteLine ("Pressione enter para finalizar.");
+            Console.ReadKey(); 
         }  
     }
 }
